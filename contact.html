@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты - Prooject</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container nav-container">
-                <a href="index.html" class="logo">Prooject</a>
-                <button class="nav-toggle" id="navToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="index.html" class="nav-link">Главная</a></li>
-                    <li><a href="services.html" class="nav-link">Услуги</a></li>
-                    <li><a href="about.html" class="nav-link">О нас</a></li>
-                    <li><a href="contact.html" class="nav-link active">Контакты</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Prooject</span>
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Главная</a></li>
+                <li><a href="services.html" class="nav-link">Услуги</a></li>
+                <li><a href="about.html" class="nav-link">О нас</a></li>
+                <li><a href="contact.html" class="nav-link active">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <section class="page-header">
         <div class="container">
@@ -32,30 +33,26 @@
         </div>
     </section>
 
-    <main class="contact-section">
+    <section class="contact-section">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
                     <h3>Контактная информация</h3>
                     <div class="contact-item">
-                        <span>📍</span>
-                        <p>Москва, Россия</p>
-                    </div>
-                    <div class="contact-item">
                         <span>📧</span>
-                        <p>info@prooject.com</p>
+                        <span>info@prooject.com</span>
                     </div>
                     <div class="contact-item">
                         <span>📱</span>
-                        <p>+7 (999) 123-45-67</p>
+                        <span>+7 (999) 000-00-00</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <span>Москва, Россия</span>
                     </div>
                     <div class="contact-item">
                         <span>💬</span>
-                        <p>Telegram: @prooject</p>
-                    </div>
-                    <div class="contact-item">
-                        <span>🕒</span>
-                        <p>Пн-Пт: 9:00 - 18:00 (MSK)</p>
+                        <span>Telegram: @prooject</span>
                     </div>
                 </div>
 
@@ -64,30 +61,38 @@
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Ваше имя</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" required placeholder="Иван Иванов">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Тема</label>
-                            <input type="text" id="subject" name="subject" required>
+                            <input type="email" id="email" name="email" required placeholder="ivan@example.com">
                         </div>
                         <div class="form-group">
                             <label for="message">Сообщение</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea id="message" name="message" required placeholder="Расскажите о вашем проекте..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-secondary">Отправить</button>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
                     </form>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Prooject. Все права защищены.</p>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Prooject</span>
+                <p>Разработка ПО и ИИ моделей</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html">Контакты</a>
+            </div>
+            <div class="footer-copyright">
+                © 2024 Prooject. Все права защищены.
+            </div>
         </div>
     </footer>
 

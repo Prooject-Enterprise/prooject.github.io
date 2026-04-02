@@ -5,79 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нас - Prooject</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container nav-container">
-                <a href="index.html" class="logo">Prooject</a>
-                <button class="nav-toggle" id="navToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="index.html" class="nav-link">Главная</a></li>
-                    <li><a href="services.html" class="nav-link">Услуги</a></li>
-                    <li><a href="about.html" class="nav-link active">О нас</a></li>
-                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Prooject</span>
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Главная</a></li>
+                <li><a href="services.html" class="nav-link">Услуги</a></li>
+                <li><a href="about.html" class="nav-link active">О нас</a></li>
+                <li><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <section class="page-header">
         <div class="container">
-            <h1>О компании Prooject</h1>
+            <h1>О компании</h1>
         </div>
     </section>
 
-    <main class="about-section">
+    <section class="about-section">
         <div class="container">
             <div class="about-content">
                 <h2>Наша миссия</h2>
-                <p>Мы стремимся создавать инновационные программные решения и модели искусственного интеллекта, которые помогают бизнесу достигать новых высот. Наша цель — делать технологии доступными и эффективными для компаний любого размера.</p>
-            </div>
-
-            <div class="about-content">
-                <h2>История компании</h2>
-                <p>Prooject была основана группой энтузиастов в области разработки ПО и машинного обучения. За годы работы мы выросли из небольшого стартапа в полноценную команду профессионалов, реализовавшую десятки успешных проектов для клиентов по всему миру.</p>
+                <p>Prooject — инновационная компания, специализирующаяся на разработке программного обеспечения и создании моделей искусственного интеллекта. Мы стремимся превращать сложные задачи в элегантные технические решения.</p>
+                <p>Наша команда состоит из опытных разработчиков, data scientist'ов и инженеров, которые увлечены технологиями и готовы решать самые амбициозные задачи.</p>
             </div>
 
             <div class="about-content">
                 <h2>Наши ценности</h2>
-                <ul style="list-style-position: inside; line-height: 2;">
-                    <li><strong>Инновации:</strong> Постоянно изучаем и внедряем новые технологии</li>
-                    <li><strong>Качество:</strong> Не идем на компромиссы в вопросах качества кода</li>
-                    <li><strong>Прозрачность:</strong> Открыто communicating с клиентами на всех этапах</li>
-                    <li><strong>Развитие:</strong> Инвестируем в обучение и рост нашей команды</li>
-                </ul>
+                <p><strong>Инновации:</strong> Мы постоянно изучаем новые технологии и подходы, чтобы предлагать клиентам лучшие решения.</p>
+                <p><strong>Качество:</strong> Каждый проект проходит тщательное тестирование и код-ревью для обеспечения высочайшего качества.</p>
+                <p><strong>Прозрачность:</strong> Открытое общение с клиентами на всех этапах разработки.</p>
+                <p><strong>Результат:</strong> Мы фокусируемся на достижении измеримых бизнес-результатов для наших клиентов.</p>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-card">
                     <span class="stat-number">50+</span>
-                    <p>Успешных проектов</p>
+                    <span class="stat-label">Проектов завершено</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number">30+</span>
-                    <p>Довольных клиентов</p>
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Специалистов в команде</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number">5</span>
-                    <p>Лет опыта</p>
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Лет опыта</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-number">15+</span>
-                    <p>Специалистов в команде</p>
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Довольных клиентов</span>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Prooject. Все права защищены.</p>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Prooject</span>
+                <p>Разработка ПО и ИИ моделей</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html">Контакты</a>
+            </div>
+            <div class="footer-copyright">
+                © 2024 Prooject. Все права защищены.
+            </div>
         </div>
     </footer>
 
