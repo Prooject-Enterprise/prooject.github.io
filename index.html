@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Мой первый сайт</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f0f0f0; padding: 50px; }
-        h1 { color: #333; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prooject - Разработка ПО и ИИ моделей</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Это мой сайт на GitHub Pages.</p>
-    <p>Я начинающий разработчик.</p>
+    <header>
+        <nav class="navbar">
+            <div class="container nav-container">
+                <a href="index.html" class="logo">Prooject</a>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Главная</a></li>
+                    <li><a href="services.html" class="nav-link">Услуги</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Добро пожаловать в <span class="highlight">Prooject</span></h1>
+                <p class="hero-subtitle">Разработка программного обеспечения и моделей искусственного интеллекта</p>
+                <a href="services.html" class="btn btn-primary">Наши услуги</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Почему выбирают нас</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Инновации</h3>
+                        <p>Используем передовые технологии для создания современных решений</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Качество</h3>
+                        <p>Гарантируем высокое качество кода и стабильность работы</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Поддержка</h3>
+                        <p>Полное сопровождение проектов на всех этапах разработки</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💡</div>
+                        <h3>Экспертиза</h3>
+                        <p>Команда опытных специалистов в области ПО и ИИ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Готовы начать проект?</h2>
+                <p>Свяжитесь с нами для обсуждения вашей идеи</p>
+                <a href="contact.html" class="btn btn-secondary">Связаться с нами</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Prooject. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
