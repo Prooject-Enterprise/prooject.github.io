@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Услуги - Prooject</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container nav-container">
-                <a href="index.html" class="logo">Prooject</a>
-                <button class="nav-toggle" id="navToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="index.html" class="nav-link">Главная</a></li>
-                    <li><a href="services.html" class="nav-link active">Услуги</a></li>
-                    <li><a href="about.html" class="nav-link">О нас</a></li>
-                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Prooject</span>
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Главная</a></li>
+                <li><a href="services.html" class="nav-link active">Услуги</a></li>
+                <li><a href="about.html" class="nav-link">О нас</a></li>
+                <li><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <section class="page-header">
         <div class="container">
@@ -32,61 +33,54 @@
         </div>
     </section>
 
-    <main class="services-list">
+    <section class="services-list">
         <div class="container">
             <div class="service-item">
                 <div class="service-icon">💻</div>
                 <div>
                     <h3>Разработка программного обеспечения</h3>
-                    <p>Создаем надежные и масштабируемые программные решения под ваши бизнес-задачи. Полный цикл разработки: от анализа требований до внедрения и поддержки.</p>
+                    <p>Создаем надежные и масштабируемые программные решения для бизнеса любой сложности. От веб-приложений до десктопных систем — реализуем ваши идеи в код.</p>
                 </div>
             </div>
-
             <div class="service-item">
                 <div class="service-icon">🤖</div>
                 <div>
-                    <h3>Разработка ИИ моделей</h3>
-                    <p>Проектирование и обучение нейронных сетей для решения задач компьютерного зрения, обработки естественного языка, прогнозирования и классификации данных.</p>
+                    <h3>Модели искусственного интеллекта</h3>
+                    <p>Разрабатываем и внедряем ML/DL модели для автоматизации бизнес-процессов, анализа данных, компьютерного зрения и обработки естественного языка.</p>
                 </div>
             </div>
-
             <div class="service-item">
                 <div class="service-icon">☁️</div>
                 <div>
                     <h3>Облачные решения</h3>
-                    <p>Развертывание и настройка облачной инфраструктуры. Миграция приложений в облако, оптимизация затрат и обеспечение высокой доступности сервисов.</p>
+                    <p>Проектируем и развертываем облачную инфраструктуру. Миграция в облако, настройка CI/CD, контейнеризация и оркестрация приложений.</p>
                 </div>
             </div>
-
-            <div class="service-item">
-                <div class="service-icon">📱</div>
-                <div>
-                    <h3>Мобильная разработка</h3>
-                    <p>Создание нативных и кроссплатформенных мобильных приложений для iOS и Android. Удобный интерфейс и высокая производительность.</p>
-                </div>
-            </div>
-
             <div class="service-item">
                 <div class="service-icon">🔧</div>
                 <div>
                     <h3>Техническая поддержка</h3>
-                    <p>Круглосуточная поддержка и обслуживание ваших систем. Мониторинг, обновление и устранение неполадок для бесперебойной работы.</p>
-                </div>
-            </div>
-
-            <div class="service-item">
-                <div class="service-icon">📊</div>
-                <div>
-                    <h3>Аналитика данных</h3>
-                    <p>Сбор, обработка и визуализация данных. Построение дашбордов и отчетов для принятия обоснованных бизнес-решений.</p>
+                    <p>Обеспечиваем круглосуточную поддержку и сопровождение ваших проектов. Мониторинг, обновление и оптимизация работающих систем.</p>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Prooject. Все права защищены.</p>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Prooject</span>
+                <p>Разработка ПО и ИИ моделей</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html">Контакты</a>
+            </div>
+            <div class="footer-copyright">
+                © 2024 Prooject. Все права защищены.
+            </div>
         </div>
     </footer>
 
